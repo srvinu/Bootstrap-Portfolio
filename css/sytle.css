@@ -32,3 +32,10 @@ hr{
 #gotop:hover {
   background-color: #555;
 }
+footer {
+  padding: 5px;
+  background: #666;
+  text-align: center;
+  color: white;
+
+}
