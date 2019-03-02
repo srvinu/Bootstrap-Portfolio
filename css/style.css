@@ -104,6 +104,9 @@ li a {
     left: 25px;
 
   }
+  .foot{
+    width: 100%
+  }
 
   #main-container {
     position: absolute;
