@@ -76,7 +76,15 @@ li a {
   opacity: 0.8;
 }
 
-
+.foot {
+  padding: 5px;
+  background: #666;
+  text-align: center;
+  color: white;
+  border-top-color: #4aaaa5;
+  border-top-style: solid;
+  border-top-width: 10px;
+}
 
 
 
