@@ -1,0 +1,106 @@
+.contain {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+  float: left;
+  width: 290px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+  position: relative;
+  left: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f7f3f3;
+}
+
+li {
+  float: right;
+  margin-top: 25px;
+}
+
+li a {
+  display: block;
+  color: #999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+.work {
+  position: relative;
+  float: left;
+  width: 174px;
+}
+
+.work img {
+  width: 60%;
+  border: 0 none;
+  opacity: 0.9;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 10px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  opacity: 0.8;
+}
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+  #logo {
+    width: 100%;
+  }
+  .contain{
+    width: 100%;
+  }
+  ul {
+    width: 100%;
+
+  }
+  li  {
+    width: 100%;
+    left: 25px;
+
+  }
+
+  #main-container {
+    position: absolute;
+    left:80px;
+    top: 220px;
+
+  }
+}
